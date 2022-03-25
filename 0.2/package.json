@@ -1,0 +1,22 @@
+{
+  "name": "0.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "webpack": "^5.70.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.180",
+    "@types/react": "^17.0.43"
+  },
+  "sideEffects": false
+}
