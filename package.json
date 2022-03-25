@@ -4,7 +4,8 @@
   "description": "webpack 学习同步",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --config ./0.1/webpack.config.js"
+    "1": "webpack --config ./0.1/webpack.config.js",
+    "2": "webpack --config ./0.2/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "webpack-cli": "^4.9.2"
   },
   "devDependencies": {
-    "html-webpack-plugin": "^5.5.0"
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3"
   }
 }
